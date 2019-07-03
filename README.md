@@ -18,3 +18,11 @@ $ packer validate vbox.json
 ```bash
 $ packer build vbox.json
 ```
+
+as result VB image would be created
+
+```bash
+$ ubuntu-1604-vbox.box
+```
+
+based on output from packer we will create `Vagrantfile` 
