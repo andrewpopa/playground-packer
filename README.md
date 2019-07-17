@@ -9,6 +9,12 @@ Source code for this example was taken form [here](https://github.com/nielsabels
 - [virtualbox](https://www.virtualbox.org/wiki/Downloads)
 - [packer](https://www.packer.io/downloads.html)
 
+## clone repository to use it
+```
+git clone git@github.com:andrewpopa/playground-packer.git
+cd playground-packer
+```
+
 ## validate packer config(json) file
 ```bash
 $ packer validate nginx.json
